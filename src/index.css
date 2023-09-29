@@ -329,7 +329,7 @@ code {
 
 /* Added Exercises Styling */
 .added-exercises {
-  margin-top: 20px;
+  margin-top: 10px; /* Reduced margin */
 }
 
 .added-exercises ul {
@@ -338,14 +338,14 @@ code {
 }
 
 .added-exercises ul li {
-  margin-bottom: 5px;
+  margin-bottom: 2px; /* Reduced margin */
 }
 
 /* Form Element Styling */
 input,
 button {
-  margin-bottom: 10px;
-  padding: 8px;
+  margin-bottom: 5px; /* Reduced margin */
+  padding: 6px; /* Reduced padding */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -359,5 +359,3 @@ button {
 button:hover {
   background-color: #9cd326;
 }
-
-/* --------------------------------- exercise page ends here ---------------------------------   */
