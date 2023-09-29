@@ -1,0 +1,363 @@
+:root {
+  --main-color: #f87e1a;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ---------------------------header starts here--------------------------------- */
+.logo-icon {
+  height: 200px;
+  margin-right: 3px;
+  width: max-content;
+}
+
+.brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.brand-logged {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.brand-new {
+  margin-top: 20px;
+}
+
+.brand-text {
+  color: black;
+}
+
+.brand-text:hover {
+  color: black;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='whitesmoke' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  text-align: right;
+  margin-right: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+/* --------------------------header ends here--------------------------------- */
+
+/* --------------------------------- home page starts here ---------------------------------  */
+.homepage {
+  background-image: url("./assets/HomePage.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.home {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  color: whitesmoke;
+}
+
+.home-title {
+  font-weight: 900;
+}
+
+.home-text {
+  margin: 10px auto 15px auto;
+  font-size: 15px;
+}
+
+.home-btn,
+.signup-btn,
+.submit-btn {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--main-color);
+  font-weight: 800;
+}
+
+.home-btn:hover,
+.signup-btn:hover,
+.submit-btn:hover {
+  background-color: #9cd326;
+}
+/* --------------------------------- homepage ends here-------------------------------- */
+
+/* --------------------------------- sign up and login page starts here-------------------------------- */
+.signup,
+.history {
+  height: 100vh;
+}
+
+.signup-form {
+  width: 300px;
+  margin: 20px 0 90px 0;
+}
+
+.signup-form label {
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.signup-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.btn-div {
+  margin: 18px auto;
+}
+
+.signup-btn {
+  width: 300px;
+  height: 46px;
+}
+
+.link-btn {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.err-message {
+  color: red;
+}
+
+/* --------------------------------- sign up and login page starts here-------------------------------- */
+
+/* --------------------------------- history page starts here ---------------------------------   */
+.history {
+  background-image: url("./assets/history.jpeg");
+}
+.title {
+  margin: 30px auto 20px auto;
+  font-weight: 900;
+}
+
+.title:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 35px; /* length of border */
+  padding-top: 3px; /* This creates some space between the element and the border. */
+  border-bottom: 2px solid; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.history-text {
+  margin: 20px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.history-data {
+  margin-bottom: 20px;
+}
+
+.history-div {
+  margin: 15px auto;
+}
+
+.date {
+  min-width: 70px;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+.history-card {
+  width: 240px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  transform: rotateY(15deg);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.history-card:hover {
+  transform: rotateY(0deg);
+}
+
+.history-icon {
+  height: 35px;
+  margin-right: 14px;
+}
+
+.cardio-title,
+.cardio-btn {
+  background-color: var(--main-color);
+  color: black;
+}
+
+.resistance-title,
+.resistance-btn {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.history-name {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.history-index {
+  margin: 0 auto;
+  font-size: 13px;
+}
+
+.show-btn {
+  margin: 20px auto;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+}
+
+.show-btn:hover {
+  font-weight: bold;
+}
+/* --------------------------------- history page ends here ---------------------------------   */
+
+/* --------------------------------- donation page starts here ---------------------------------   */
+
+.donationPage {
+  text-align: center;
+  padding: 50px;
+}
+
+.heroImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.donationHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.handPoint {
+  font-size: 36px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+/* Styling for the DonateButton component  */
+.donationButton {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.donationButton:hover {
+  background-color: #9cd326;
+}
+
+/* Success Header */
+.successHeader {
+  font-size: 4rem;
+  color: #ecb2f3;
+  text-shadow: 0.5px 0 6px black;
+  text-align: center;
+}
+
+/* Success Donation Container */
+.successDonation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbcdda;
+  height: 100vh;
+}
+
+/* --------------------------------- donation page ends here ---------------------------------   */
+
+/* --------------------------------- exercise page starts here ---------------------------------   */
+
+.exercise-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cardio-section,
+.weight-section {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+}
+
+.cardio-section h3,
+.weight-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Added Exercises Styling */
+.added-exercises {
+  margin-top: 20px;
+}
+
+.added-exercises ul {
+  list-style: none;
+  padding: 0;
+}
+
+.added-exercises ul li {
+  margin-bottom: 5px;
+}
+
+/* Form Element Styling */
+input,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #f87e1a;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9cd326;
+}
+
+/* --------------------------------- exercise page ends here ---------------------------------   */
