@@ -18,12 +18,8 @@ In this project, I developed a web application for users to track their fitness 
 - Bootstrap for responsive and visually appealing UI components.
 
 ### Image example of my site
-
-[Insert Image Here]
+![fit](https://github.com/DanialDevelops/Fitness-Tracker/assets/126214677/d31c4dc5-cca7-450a-b292-343ebf2a8223)
 
 ### Future Enhancements
-- Implementing a donation feature using Stripe for premium memberships and additional features.
+- Completeing history page and other aspects.
 - Adding social sharing functionality to allow users to share their fitness achievements on social media platforms.
-
-### Project Link
-[Link to the deployed application](https://your-deployed-link.com)
